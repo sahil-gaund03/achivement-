@@ -21,17 +21,15 @@ Hi, I'm **Sahil Gaund**
 
 ---
 
-## 🐍 Contribution Snake (Auto Dark/Light Mode)
+## 🌐 Connect With Me
 
 <p align="center">
-  <picture>
-    <!-- Dark Mode -->
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sahil-gaund03/sahil-gaund03/output/github-contribution-grid-snake-dark.svg" />
-    <!-- Light Mode -->
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sahil-gaund03/sahil-gaund03/output/github-contribution-grid-snake.svg" />
-    <!-- Fallback -->
-    <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/sahil-gaund03/sahil-gaund03/output/github-contribution-grid-snake.svg" />
-  </picture>
+  <a href="https://linkedin.com/in/YOUR-LINK">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="mailto:YOUR-EMAIL@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
 </p>
 
 ---
@@ -39,6 +37,10 @@ Hi, I'm **Sahil Gaund**
 ## 🧠 Featured Projects
 
 ### 🔹 Bank Customer Churn Prediction
+
+<p align="center">
+  <img src="https://github.com/platane/snk/raw/output/github-contribution-grid-snake.svg" />
+</p>
 
 * Built an **end-to-end ML pipeline**
 * Behavioral feature engineering
@@ -78,49 +80,34 @@ Hi, I'm **Sahil Gaund**
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=sahil-gaund03&theme=tokyonight" height="165"/>
 </p>
 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sahil-gaund03&layout=compact&theme=tokyonight"/>
+</p>
+
 ---
 
-## ⚙️ Setup Snake Animation (IMPORTANT)
+## 📂 Folder Structure
 
-To make the snake animation work, you must create a **GitHub Action**:
-
-### 📁 Create File:
-
-`.github/workflows/snake.yml`
-
-### 📄 Paste This Code:
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 */12 * * *"   # runs every 12 hours
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Generate snake animation
-        uses: Platane/snk@v3
-        with:
-          github_user_name: sahil-gaund03
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```bash
+📁 achivement-
+│── 📁 projects
+│   ├── churn_prediction
+│   ├── data_analysis
+│
+│── 📁 certificates
+│
+│── 📁 streamlit_apps
+│
+│── README.md
 ```
+
+---
+
+## 🏆 Achievements
+
+* 🥉 3rd Prize in Photography Competition
+* 📜 AI/ML & Data Science Certifications
+* 💡 Real-world ML Projects
 
 ---
 
@@ -137,12 +124,36 @@ streamlit run streamlit_app.py
 
 ---
 
+## 📈 Current Focus
+
+* Deep Learning 🤖
+* Model Deployment 🚀
+* Data Engineering ⚙️
+
+---
+
+## ⚡ Fun Section
+
+<p align="center">
+  <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="300"/>
+</p>
+
+---
+
 ## ⭐ Support
 
 If you like this project:
 ⭐ Star the repo
 🍴 Fork it
 📢 Share it
+
+---
+
+## 🔥 Quote
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=F700FF&center=true&vCenter=true&width=600&lines=Consistency+%2B+Projects+%3D+Success;Build+%2C+Break%2C+Learn%2C+Repeat;Stay+Hungry+Stay+Foolish" />
+</p>
 
 ---
 
