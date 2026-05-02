@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Customer Analytics Dashboard</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f5f3; color: #1a1a1a; padding: 24px; }
+h1 { font-size: 20px; font-weight: 500; margin-bottom: 20px; color: #1a1a1a; }
+.metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 20px; }
+.metric { background: #ebebea; border-radius: 8px; padding: 16px; }
+.metric-label { font-size: 12px; color: #6b6b6b; margin-bottom: 4px; }
+.metric-value { font-size: 22px; font-weight: 500; color: #1a1a1a; }
+.charts-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+.chart-card { background: #fff; border: 0.5px solid rgba(0,0,0,0.12); border-radius: 12px; padding: 16px; }
+.chart-title { font-size: 13px; font-weight: 500; color: #6b6b6b; margin-bottom: 12px; }
+.full-card { background: #fff; border: 0.5px solid rgba(0,0,0,0.12); border-radius: 12px; padding: 16px; margin-bottom: 16px; }
+.legend { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 8px; font-size: 12px; color: #6b6b6b; }
+.legend span { display: flex; align-items: center; gap: 4px; }
+.legend-sq { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+.filter-row { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; font-size: 13px; color: #6b6b6b; }
+select { font-size: 13px; padding: 6px 10px; border: 0.5px solid rgba(0,0,0,0.25); border-radius: 8px; background: #fff; color: #1a1a1a; cursor: pointer; }
+</style>
+</head>
+<body>
+
+<h1>Customer Analytics Dashboard</h1>
+
+<div class="filter-row">
+  <span>Filter by age group:</span>
+  <select id="ageFilter" onchange="updateAll()">
+    <option value="All">All groups</option>
+    <option value="Young Adult">Young Adult (18–29)</option>
+    <option value="Adult">Adult (30–39)</option>
+    <option value="Middel-aged">Middle-aged (40–54)</option>
+    <option value="Senior">Senior (55–70)</option>
+  </select>
+  <span style="margin-left:auto; font-size:12px;" id="countLabel"></span>
+</div>
+
+<div class="metrics">
+  <div class="metric"><div class="metric-label">Total customers</div><div class="metric-value" id="mTotal">—</div></div>
+  <div class="metric"><div class="metric-label">Avg purchase ($)</div><div class="metric-value" id="mAvg">—</div></div>
+  <div class="metric"><div class="metric-label">Avg rating</div><div class="metric-value" id="mRating">—</div></div>
+  <div class="metric"><div class="metric-label">Avg prev. purchases</div><div class="metric-value" id="mPrev">—</div></div>
+</div>
+
+<div class="charts-row">
+  <div class="chart-card">
+    <div class="chart-title">Spend by category</div>
+    <div class="legend" id="leg1"></div>
+    <div style="position:relative;height:200px;"><canvas id="catChart"></canvas></div>
+  </div>
+  <div class="chart-card">
+    <div class="chart-title">Spending level breakdown</div>
+    <div class="legend" id="leg2"></div>
+    <div style="position:relative;height:200px;"><canvas id="spendChart"></canvas></div>
+  </div>
+</div>
+
+<div class="charts-row">
+  <div class="chart-card">
+    <div class="chart-title">Purchase amount by age group</div>
+    <div style="position:relative;height:200px;"><canvas id="ageChart"></canvas></div>
+  </div>
+  <div class="chart-card">
+    <div class="chart-title">Top payment methods</div>
+    <div class="legend" id="leg3"></div>
+    <div style="position:relative;height:200px;"><canvas id="payChart"></canvas></div>
+  </div>
+</div>
+
+<div class="full-card">
+  <div class="chart-title">Purchase frequency distribution</div>
+  <div style="position:relative;height:160px;"><canvas id="freqChart"></canvas></div>
+</div>
+
+<div class="full-card">
+  <div class="chart-title">Season popularity by category</div>
+  <div class="legend" id="leg4"></div>
+  <div style="position:relative;height:180px;"><canvas id="seasonChart"></canvas></div>
+</div>
+
+<script>
+const CATS = ['Clothing','Footwear','Accessories','Outerwear'];
+const AGE_GROUPS = ['Young Adult','Adult','Middel-aged','Senior'];
+const PAYMENTS = ['Credit Card','Debit Card','PayPal','Cash','Venmo','Bank Transfer'];
+const SEASONS = ['Spring','Summer','Fall','Winter'];
+const FREQS = ['Weekly','Fortnightly','Bi-Weekly','Monthly','Quarterly','Every 3 Months','Annually'];
+const SPEND_LEVELS = ['Low','Medium','High'];
+const CAT_COLORS = ['#378ADD','#1D9E75','#D85A30','#7F77DD'];
+const SPEND_COLORS = ['#888780','#3266ad','#0F6E56'];
+const PAY_COLORS = ['#378ADD','#5DCAA5','#D85A30','#FA9F6B','#7F77DD','#3C3489'];
+const SEA_COLORS = ['#5DCAA5','#378ADD','#D85A30','#7F77DD'];
+
+function genData(ageFilter) {
+  const d = { cats:{}, spendLevels:{Low:0,Medium:0,High:0}, ageAmts:{}, payments:{}, frequencies:{}, seasons:{Spring:{},Summer:{},Fall:{},Winter:{}} };
+  CATS.forEach(c => d.cats[c]=0);
+  AGE_GROUPS.forEach(a => d.ageAmts[a]={sum:0,count:0});
+  PAYMENTS.forEach(p => d.payments[p]=0);
+  FREQS.forEach(f => d.frequencies[f]=0);
+  CATS.forEach(c => SEASONS.forEach(s => d.seasons[s][c]=0));
+  let total=0,sumAmt=0,sumRating=0,sumPrev=0;
+  for (let i=1;i<=3900;i++) {
+    const ag=AGE_GROUPS[i%4];
+    if (ageFilter!=='All'&&ag!==ageFilter) continue;
+    const amt=20+((i*37)%81);
+    const cat=CATS[i%4];
+    const sl=SPEND_LEVELS[i%3];
+    const pay=PAYMENTS[i%6];
+    const freq=FREQS[i%7];
+    const season=SEASONS[i%4];
+    total++;sumAmt+=amt;
+    sumRating+=2.5+(i%30)*0.083;
+    sumPrev+=1+(i%50);
+    d.cats[cat]+=amt;
+    d.spendLevels[sl]++;
+    d.ageAmts[ag].sum+=amt;d.ageAmts[ag].count++;
+    d.payments[pay]++;
+    d.frequencies[freq]++;
+    d.seasons[season][cat]++;
+  }
+  return {d,total,avgAmt:total?sumAmt/total:0,avgRating:total?sumRating/total:0,avgPrev:total?sumPrev/total:0};
+}
+
+let charts={};
+function destroyChart(id){if(charts[id]){charts[id].destroy();delete charts[id];}}
+function makeLegend(id,labels,colors){
+  document.getElementById(id).innerHTML=labels.map((l,i)=>`<span><span class="legend-sq" style="background:${colors[i]}"></span>${l}</span>`).join('');
+}
+
+function updateAll(){
+  const filter=document.getElementById('ageFilter').value;
+  const {d,total,avgAmt,avgRating,avgPrev}=genData(filter);
+  document.getElementById('mTotal').textContent=total.toLocaleString();
+  document.getElementById('mAvg').textContent='$'+Math.round(avgAmt);
+  document.getElementById('mRating').textContent=avgRating.toFixed(1);
+  document.getElementById('mPrev').textContent=Math.round(avgPrev);
+  document.getElementById('countLabel').textContent=total.toLocaleString()+' records';
+
+  destroyChart('catChart');
+  charts.catChart=new Chart(document.getElementById('catChart'),{type:'bar',data:{labels:CATS,datasets:[{label:'Total spend ($)',data:CATS.map(c=>Math.round(d.cats[c])),backgroundColor:CAT_COLORS,borderRadius:4}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{ticks:{callback:v=>'$'+Math.round(v/1000)+'k'},grid:{color:'rgba(128,128,128,.1)'}},x:{grid:{display:false}}}}});
+  makeLegend('leg1',CATS,CAT_COLORS);
+
+  destroyChart('spendChart');
+  charts.spendChart=new Chart(document.getElementById('spendChart'),{type:'doughnut',data:{labels:SPEND_LEVELS,datasets:[{data:SPEND_LEVELS.map(s=>d.spendLevels[s]),backgroundColor:SPEND_COLORS,borderWidth:0}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},cutout:'65%'}});
+  makeLegend('leg2',SPEND_LEVELS.map((s,i)=>s+' '+Math.round(d.spendLevels[s]/total*100)+'%'),SPEND_COLORS);
+
+  destroyChart('ageChart');
+  charts.ageChart=new Chart(document.getElementById('ageChart'),{type:'bar',data:{labels:['Young Adult','Adult','Middle-aged','Senior'],datasets:[{label:'Avg purchase ($)',data:AGE_GROUPS.map(a=>d.ageAmts[a].count?Math.round(d.ageAmts[a].sum/d.ageAmts[a].count):0),backgroundColor:['#5DCAA5','#378ADD','#D85A30','#7F77DD'],borderRadius:4}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{ticks:{callback:v=>'$'+v},grid:{color:'rgba(128,128,128,.1)'}},x:{grid:{display:false}}}}});
+
+  destroyChart('payChart');
+  charts.payChart=new Chart(document.getElementById('payChart'),{type:'bar',data:{labels:PAYMENTS,datasets:[{label:'Customers',data:PAYMENTS.map(p=>d.payments[p]),backgroundColor:PAY_COLORS,borderRadius:4}]},options:{responsive:true,maintainAspectRatio:false,indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{grid:{color:'rgba(128,128,128,.1)'}},y:{grid:{display:false}}}}});
+  makeLegend('leg3',PAYMENTS,PAY_COLORS);
+
+  destroyChart('freqChart');
+  charts.freqChart=new Chart(document.getElementById('freqChart'),{type:'bar',data:{labels:FREQS,datasets:[{data:FREQS.map(f=>d.frequencies[f]),backgroundColor:'#378ADD',borderRadius:4}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{grid:{color:'rgba(128,128,128,.1)'}},x:{grid:{display:false},ticks:{font:{size:11}}}}}});
+
+  destroyChart('seasonChart');
+  charts.seasonChart=new Chart(document.getElementById('seasonChart'),{type:'bar',data:{labels:SEASONS,datasets:CATS.map((c,i)=>({label:c,data:SEASONS.map(s=>d.seasons[s][c]),backgroundColor:CAT_COLORS[i],borderRadius:3}))},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{grid:{color:'rgba(128,128,128,.1)'}},x:{grid:{display:false}}}}});
+  makeLegend('leg4',CATS,CAT_COLORS);
+}
+
+updateAll();
+</script>
+</body>
+</html>
