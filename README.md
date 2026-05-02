@@ -89,7 +89,6 @@ Customer churn significantly impacts banking revenue. Traditional models fail to
 
 ### ⚙️ System Architecture
 
-```mermaid
 flowchart LR
     A[Raw Banking Data] -->|Ingest| B[Data Preprocessing]
     B -->|Transform| C[Feature Engineering]
