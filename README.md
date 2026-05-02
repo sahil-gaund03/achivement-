@@ -105,4 +105,3 @@ flowchart LR
     style E fill:#da77f2,stroke:#9c36b5,color:#fff
     style F fill:#ff8787,stroke:#e03131,color:#fff
     style G fill:#74c0fc,stroke:#1971c2,color:#fff
-
