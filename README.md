@@ -87,21 +87,24 @@ I am an aspiring **AI/ML Engineer** focused on building **production-grade machi
 
 Customer churn significantly impacts banking revenue. Traditional models fail to capture **behavioral engagement signals**, leading to weak retention strategies and missed revenue opportunities.
 
-<h2>🧪 Methodology</h2>
-| Phase                     | Actions                                                           |
-| ------------------------- | ----------------------------------------------------------------- |
-| **Data Cleaning**         | Missing value imputation, outlier detection, data type correction |
-| **Feature Engineering**   | Engagement Score, Activity Metrics, RFM features                  |
-| **Model Training**        | Logistic Regression, Random Forest with cross-validation          |
-| **Hyperparameter Tuning** | GridSearchCV for optimal parameters                               |
-| **Evaluation**            | Accuracy, ROC-AUC, Precision-Recall, Confusion Matrix             |
+### ⚙️ System Architecture
 
-<h2>📊 Results</h2>
-| Metric         | Score         | Impact                                         |
-| -------------- | ------------- | ---------------------------------------------- |
-| **Accuracy**   | ~85%          | Reliable predictions for business decisions    |
-| **ROC-AUC**    | High          | Strong class separation capability             |
-| **Model Used** | Random Forest | Best balance of performance & interpretability |
+```mermaid
+flowchart LR
+    A[Raw Banking Data] -->|Ingest| B[Data Preprocessing]
+    B -->|Transform| C[Feature Engineering]
+    C -->|Train/Test Split| D[Model Training]
+    D -->|Evaluate| E[Model Validation]
+    E -->|Deploy| F[Streamlit App]
+    F -->|Predict| G[Business Dashboard]
+    
+    style A fill:#ff6b6b,stroke:#c92a2a,color:#fff
+    style B fill:#4dabf7,stroke:#1971c2,color:#fff
+    style C fill:#69db7c,stroke:#2f9e44,color:#fff
+    style D fill:#ffd43b,stroke:#f08c00,color:#000
+    style E fill:#da77f2,stroke:#9c36b5,color:#fff
+    style F fill:#ff8787,stroke:#e03131,color:#fff
+    style G fill:#74c0fc,stroke:#1971c2,color:#fff
 
 <!-- Tech Stack -->
 <div align="center">
@@ -176,5 +179,3 @@ Customer churn significantly impacts banking revenue. Traditional models fail to
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=2500&pause=800&color=58A6FF&center=true&vCenter=true&width=500&lines=Design+%E2%80%A2+Build+%E2%80%A2+Deploy+%E2%80%A2+Scale" alt="Footer Typing" />
 </div>
 ```
-
-
