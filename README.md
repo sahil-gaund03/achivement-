@@ -1,12 +1,13 @@
-# 🚀 Achievements & Projects Portfolio
+# 🚀 Sahil Gaund | AI/ML Engineer Portfolio
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=AI%2FML+Engineer+%7C+Data+Scientist;Building+Production+Ready+Projects;Open+to+Opportunities+🚀" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=AI%2FML+Engineer;Data+Scientist;Building+Scalable+ML+Systems;Open+to+Opportunities+🚀" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Profile-Level-Top%201%25🔥-blueviolet?style=for-the-badge"/>
-  <img src="https://komarev.com/ghpvc/?username=sahil-gaund03&label=Profile%20Views&color=brightgreen&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-AI%2FML-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Level-Production%20Ready-success?style=for-the-badge"/>
+  <img src="https://komarev.com/ghpvc/?username=sahil-gaund03&style=for-the-badge&color=brightgreen"/>
 </p>
 
 ---
@@ -15,15 +16,16 @@
 
 <img align="right" alt="coding" width="320" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
 
-* 🎯 AI/ML Engineer in progress
-* 📊 Strong in Data Science & EDA
-* ⚙️ Building end-to-end ML systems
-* 🚀 Focused on real-world deployment
-* 💼 Open for internships & opportunities
+I am an aspiring **AI/ML Engineer** focused on building **production-grade machine learning systems** with strong foundations in data science, model development, and deployment.
+
+* ⚙️ End-to-End ML Pipeline Development
+* 📊 Advanced Exploratory Data Analysis
+* 🚀 Model Deployment (Streamlit / APIs)
+* 🧠 Focus: Scalable & interpretable ML systems
 
 ---
 
-## 🐍 Contribution Snake
+## 🐍 Contribution Graph
 
 <p align="center">
   <picture>
@@ -35,60 +37,110 @@
 
 ---
 
-## ⚡ Tech Stack (Animated)
+## 🧠 Flagship Project
+
+# 🏦 Bank Customer Churn Prediction System
+
+### 🔍 Problem Statement
+
+Customer churn significantly impacts banking revenue. Traditional models fail to capture **behavioral engagement signals**, leading to weak retention strategies.
+
+---
+
+### ⚙️ System Architecture
+
+```mermaid id="arch123"
+flowchart LR
+A[Raw Data] --> B[Data Preprocessing]
+B --> C[Feature Engineering]
+C --> D[Model Training]
+D --> E[Evaluation]
+E --> F[Deployment (Streamlit)]
+```
+
+---
+
+### 🧪 Methodology
+
+* Data Cleaning & Missing Value Handling
+* Feature Engineering (Engagement Score, Activity Metrics)
+* Model Training:
+
+  * Logistic Regression
+  * Random Forest
+* Hyperparameter Tuning
+* Evaluation Metrics:
+
+  * Accuracy
+  * ROC-AUC
+  * Confusion Matrix
+
+---
+
+### 📊 Results
+
+| Metric     | Score         |
+| ---------- | ------------- |
+| Accuracy   | ~85%          |
+| ROC-AUC    | High          |
+| Model Used | Random Forest |
+
+---
+
+### 🚀 Deployment
+
+* Interactive UI using **Streamlit**
+* Real-time prediction interface
+* User input → instant churn prediction
+
+---
+
+## 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,pandas,numpy,sklearn,matplotlib,streamlit,git,github,vscode&perline=5" />
+  <img src="https://skillicons.dev/icons?i=python,pandas,numpy,sklearn,matplotlib,streamlit,git,github,docker,vscode&perline=5" />
 </p>
 
 ---
 
-## 🔥 Featured Project
-
-### 🏦 Bank Customer Churn Prediction
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=sahil-gaund03&repo=achivement-&theme=tokyonight" />
-</p>
-
-✨ **Highlights:**
-
-* End-to-end ML pipeline
-* Feature engineering (behavior-based)
-* Model comparison & evaluation
-* Streamlit deployment
-
----
-
-## 📊 GitHub Analytics
+## 📊 Engineering Metrics
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=sahil-gaund03&show_icons=true&theme=tokyonight&hide_border=true" height="165"/>
   <img src="https://streak-stats.demolab.com?user=sahil-gaund03&theme=tokyonight&hide_border=true" height="165"/>
 </p>
 
+---
+
+## 📈 Activity Graph
+
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sahil-gaund03&theme=tokyo-night&hide_border=true" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sahil-gaund03&theme=tokyo-night&hide_border=true"/>
 </p>
 
 ---
 
-## 🧠 Current Focus
+## 🧠 Technical Strengths
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Deep%20Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MLOps-000000?style=for-the-badge&logo=databricks&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Data%20Engineering-007ACC?style=for-the-badge&logo=apache-spark&logoColor=white"/>
-</p>
+* Machine Learning Pipelines
+* Feature Engineering
+* Model Evaluation & Optimization
+* Data Visualization
+* Deployment (Streamlit)
 
 ---
 
 ## 🏆 Achievements
 
-<p align="center">
-  <img src="https://img.shields.io/badge/🥉%203rd%20Prize-Photography-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/AI%2FML-Certified-success?style=for-the-badge"/>
-</p>
+* 🥉 3rd Prize — Photography Competition
+* 📜 AI/ML Certifications
+* 💡 Real-world ML project deployment
+
+---
+
+## 🎯 Career Objective
+
+To build **scalable AI systems** that solve real-world problems and contribute to impactful engineering teams.
 
 ---
 
@@ -105,7 +157,12 @@
 
 ---
 
-## 💎 Premium Touch (Glowing Divider)
+## 💎 Engineering Philosophy
+
+> Build systems, not just models.
+> Optimize for impact, not just accuracy.
+
+---
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:8A2BE2&height=120&section=footer"/>
@@ -113,12 +170,4 @@
 
 ---
 
-## ⭐ Support
-
-<p align="center">
-  <img src="https://img.shields.io/badge/If%20you%20like%20this-⭐%20Star%20it-yellow?style=for-the-badge"/>
-</p>
-
----
-
-<h2 align="center">🚀 Build • Learn • Deploy • Repeat</h2>
+<h2 align="center">🚀 Design • Build • Deploy • Scale</h2>
