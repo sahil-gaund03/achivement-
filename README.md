@@ -1,68 +1,124 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:7B2FBE,100:FF6B6B&height=120&section=header&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=140&section=header&text=Sahil%20Gaund&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20%2F%20ML%20Engineer%20·%20Data%20Scientist%20·%20Open%20to%20Opportunities&descAlignY=60&descSize=16" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=32&duration=3000&pause=800&color=00D9FF&center=true&vCenter=true&multiline=false&repeat=true&width=700&height=60&lines=Hey%2C+I'm+Sahil+Gaund+%F0%9F%91%8B;AI+%2F+ML+Engineer+%7C+Data+Scientist;Building+Systems+That+Think.)](https://git.io/typing-svg)
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sahilgaund)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sahilgaund)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sahilgaund@email.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-00D9FF?style=for-the-badge&logo=vercel&logoColor=black)](https://sahilgaund.dev)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=750&height=55&lines=Building+ML+Systems+That+Think+%F0%9F%A7%A0;From+Raw+Data+%E2%86%92+Production+Inference;Explainable+AI+%7C+End-to-End+Pipelines;Open+to+Internships+%26+Collaborations+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=sahilgaund&style=for-the-badge&color=00D9FF&label=PROFILE+VIEWS)
-![Followers](https://img.shields.io/github/followers/sahilgaund?style=for-the-badge&color=7B2FBE&labelColor=0D1117&label=FOLLOWERS)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sahilgaund03)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sahil-gaund03)
+[![Portfolio](https://img.shields.io/badge/Portfolio-A78BFA?style=for-the-badge&logo=netlify&logoColor=white)](https://sahilgaund0310.netlify.app/)
+[![Profile Views](https://komarev.com/ghpvc/?username=sahil-gaund03&style=for-the-badge&color=A78BFA&label=PROFILE+VIEWS)](https://github.com/sahil-gaund03)
 
 </div>
 
-<br/>
+---
+
+## 🗂️ Repository Overview
+
+> **This repository is a curated archive of Sahil Gaund's professional journey** — housing ML/Data Science projects, industry certifications, IBM badges, virtual internship completions, an AI Engineer learning roadmap, and a full resume. It serves as a single source of truth for recruiters, collaborators, and the open-source community.
+
+```
+📌 Not just a portfolio — a living record of growth from student to AI/ML practitioner.
+```
 
 ---
 
-## 🧠 About Me
+## 👤 About Me
 
-<img align="right" width="340" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" alt="Coding GIF" style="border-radius:12px; margin-left:20px;"/>
+<img align="right" width="320" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" alt="Coding GIF" style="border-radius:10px; margin-left:16px;"/>
 
 ```python
 class SahilGaund:
-    role       = ["AI/ML Engineer", "Data Scientist"]
-    focus      = "End-to-end ML systems, from raw data → production"
-    languages  = ["Python", "SQL"]
-    interests  = ["Machine Learning", "NLP", "Computer Vision"]
-    building   = "Bank Customer Churn Prediction System"
-    open_to    = "Internships · Collaborations · Research"
-    fun_fact   = "🥉 Award-winning photographer turned data scientist"
+    title       = "AI / ML Engineer | Data Scientist"
+    location    = "India 🇮🇳  ·  Open to Remote"
+    focus       = "End-to-end ML: raw data → production inference"
+    languages   = ["Python", "SQL", "C++"]
+    interests   = [
+        "Machine Learning", "NLP",
+        "Computer Vision", "Explainable AI"
+    ]
+    flagship    = "Bank Customer Churn Prediction (87% accuracy)"
+    open_to     = ["Internships", "Collaborations", "Research"]
+    fun_fact    = "🥉 Award-winning photographer → data scientist"
 ```
 
 <br/>
 
-- 🎯 &nbsp;Building **production-grade ML pipelines** with real-world impact
-- 📊 &nbsp;Specializing in **predictive modeling**, **NLP**, and **data visualization**
-- 🏆 &nbsp;Achieved **87% accuracy** on churn prediction with full SHAP explainability
-- 📜 &nbsp;Completed **ML Specialization** (Andrew Ng) + **TensorFlow Developer Cert**
-- 📸 &nbsp;**3rd Prize** — University Photography Competition (200+ participants)
-- 🌍 &nbsp;Based in **India** · Open to remote opportunities
+- 🎯 &nbsp;Designing **production-grade ML pipelines** with measurable impact  
+- 📊 &nbsp;Deep expertise in **predictive modeling**, **NLP**, and **dashboarding**  
+- 🔍 &nbsp;Committed to **SHAP-driven model explainability** in every project  
+- 🏆 &nbsp;**87% accuracy** on churn prediction — best model: XGBoost  
+- 📸 &nbsp;**3rd Prize** — University Photography Competition (200+ participants)  
+- 📬 &nbsp;Response within **24 hours** — always open to a conversation  
 
 <br clear="right"/>
 
 ---
 
-## 🐍 Contribution Activity
+## 📁 Repository Structure
 
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sahilgaund/sahilgaund/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sahilgaund/sahilgaund/output/github-contribution-grid-snake.svg"/>
-  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/sahilgaund/sahilgaund/output/github-contribution-grid-snake-dark.svg" width="100%"/>
-</picture>
-
-</div>
-
-> **Setup:** Add a GitHub Actions workflow at `.github/workflows/snake.yml` to auto-generate this — see [platane/snk](https://github.com/platane/snk).
+```
+📦 achivement/
+│
+├── 📂 ALL Projects/                          # Data Science & ML project reports
+│   ├── 📂 Bank Customer Churn Prediction/    # Flagship project — XGBoost · SHAP · Streamlit
+│   ├── 📂 CARE TRANSITION ANALYTICS - EDA/   # Healthcare EDA with Streamlit deployment
+│   ├── 📂 Dashboard/                         # Interactive customer analytics dashboard (HTML)
+│   ├── 📄 SMS Spam Detection.pdf
+│   ├── 📄 Email Spam Classifier Project.pdf
+│   ├── 📄 Netflix Data Analysis.pdf
+│   ├── 📄 Diwali Sales Analysis.pdf
+│   ├── 📄 Google Search Analysis.pdf
+│   ├── 📄 Coaster Name EDA.pdf
+│   ├── 📄 Website Data Analysis.pdf
+│   ├── 📄 Churn Prediction.pdf
+│   ├── 📄 ML Algorithms.pdf
+│   └── 📄 Python Data Analysis.pdf
+│
+├── 📂 CERTIFICATE/                           # 20+ verified course completions
+│   ├── Applied Data Science with Python.pdf
+│   ├── Fundamentals of ML and AI.pdf
+│   ├── Machine Learning with Python.pdf
+│   ├── Introduction to Generative AI.pdf
+│   ├── Introduction to Large Language Models.pdf
+│   ├── Create Image Captioning Models.pdf
+│   ├── Data Visualization with Python.pdf
+│   ├── AWS Foundations — ML Basics.pdf
+│   ├── Google Analytics Certification.pdf
+│   ├── Innovating with Google Cloud AI.pdf
+│   ├── Databricks for Machine Learning.pdf
+│   ├── AI And ML Full Course.pdf
+│   ├── Prompt Engineering with GitHub Copilot.pdf
+│   └── ...and more
+│
+├── 📂 IBM Badges/                            # Verified IBM digital credentials
+│   ├── Python for Data Science.pdf
+│   ├── Data Analysis Using Python.pdf
+│   ├── Data Visualization Using Python.pdf
+│   ├── Machine Learning with Python — Level 1.pdf
+│   └── Applied Data Science with Python — Level 2.pdf
+│
+├── 📂 Virtual Internship/                    # Forage job simulation certificates
+│   ├── Data Analytics Job Simulation.pdf
+│   ├── Tata GenAI Powered Data Analytics.pdf
+│   └── Introduction to Software Engineering Job.pdf
+│
+├── 📂 Internship/                            # Real-world internship documentation
+│   ├── OfferLetter.pdf
+│   └── Internship Completion Evidence
+│
+├── 📂 AI Engineer Roadmap/                   # Curated 12-month learning plan
+│   ├── AI Engineer 12 Months Roadmap.pdf
+│   ├── Free AI ML Courses.pdf
+│   └── AI.jpeg
+│
+├── 📂 RESUME/
+│   └── Sahil Gaund Resume.pdf                # Latest CV — download-ready
+│
+└── 📄 README.md
+```
 
 ---
 
@@ -70,17 +126,18 @@ class SahilGaund:
 
 <div align="center">
 
-[![Repo](https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sahilgaund/churn-prediction)
+[![Repo](https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sahil-gaund03/churn-prediction)
 [![Live Demo](https://img.shields.io/badge/Live_Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://churn-prediction.streamlit.app)
-[![Stars](https://img.shields.io/github/stars/sahilgaund/churn-prediction?style=for-the-badge&color=FFD166&labelColor=0D1117)](https://github.com/sahilgaund/churn-prediction)
+[![Open in Colab](https://img.shields.io/badge/Open_in_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=black)](https://colab.research.google.com/)
 
 </div>
 
 ### 📌 Problem Statement
 
-> Banks lose **15–25% of customers annually** to churn, costing millions in acquisition to replace them. Early identification of at-risk customers enables proactive retention — but most internal tools rely on lagging indicators.
+> Banks lose **15–25% of customers annually** to churn, costing millions in replacement acquisition.  
+> Most internal tools use lagging indicators — they react after the customer has already left.  
 >
-> **Goal:** Build a real-time, explainable ML system that predicts churn with high precision, deployable by non-technical bank staff.
+> **Goal:** A real-time, interpretable ML system that flags at-risk customers early, deployable by non-technical bank staff with full SHAP explainability.
 
 ---
 
@@ -88,9 +145,9 @@ class SahilGaund:
 
 ```mermaid
 flowchart TD
-    A[🗄️ Raw Bank Data\n10,000+ customers] --> B[🔧 Data Preprocessing\nImputation · Encoding · Scaling]
-    B --> C[📊 Exploratory Analysis\nCorrelation · Distribution · Outliers]
-    C --> D[⚙️ Feature Engineering\nCredit Score Bins · Tenure Ratio · Balance Flag]
+    A[🗄️ Raw Bank Data\n10,000+ customers] --> B[🔧 Preprocessing\nImputation · Encoding · Scaling]
+    B --> C[📊 EDA\nCorrelation · Distribution · Outliers]
+    C --> D[⚙️ Feature Engineering\nCredit Bins · Tenure Ratio · Balance Flag]
     D --> E{🤖 Model Training}
     E --> F[Logistic Regression]
     E --> G[Random Forest]
@@ -98,32 +155,32 @@ flowchart TD
     E --> I[LightGBM]
     E --> J[SVM]
     F & G & H & I & J --> K[📈 Evaluation\nROC-AUC · F1 · Precision · Recall]
-    K --> L[🔍 SHAP Explainability\nGlobal + Local Feature Importance]
-    L --> M[🚀 Streamlit Dashboard\nReal-time Inference · CSV Upload]
-    M --> N[👤 End User\nBank Relationship Manager]
+    K --> L[🔍 SHAP Explainability\nWaterfall + Beeswarm Plots]
+    L --> M[🚀 Streamlit Dashboard\nReal-time Inference · CSV Batch Upload]
+    M --> N[👤 Bank Relationship Manager]
 
-    style H fill:#00D9FF,color:#000,stroke:#00D9FF
+    style H fill:#A78BFA,color:#000,stroke:#A78BFA
     style M fill:#FF4B4B,color:#fff,stroke:#FF4B4B
     style A fill:#1a1a2e,color:#fff
-    style N fill:#7B2FBE,color:#fff
+    style N fill:#302b63,color:#fff
 ```
 
 ---
 
-### 🔬 Methodology
+### 🔬 ML Methodology
 
-| Phase | Steps | Tools |
+| Phase | Actions | Tools |
 |:---|:---|:---|
 | **Data Wrangling** | Missing value imputation, outlier detection, type casting | `Pandas`, `NumPy` |
 | **EDA** | Churn rate by geography, age, balance distribution | `Matplotlib`, `Seaborn` |
 | **Feature Engineering** | Credit score bins, balance-to-salary ratio, activity flags | `Pandas`, `Scikit-learn` |
-| **Modeling** | 5 algorithms trained, cross-validated (k=5) | `Scikit-learn`, `XGBoost` |
+| **Modeling** | 5 algorithms trained, k=5 cross-validation | `Scikit-learn`, `XGBoost`, `LightGBM` |
 | **Explainability** | SHAP waterfall + beeswarm plots per prediction | `SHAP` |
 | **Deployment** | Interactive web app with CSV batch inference | `Streamlit` |
 
 ---
 
-### 📊 Results
+### 📊 Model Performance Metrics
 
 <div align="center">
 
@@ -137,27 +194,29 @@ flowchart TD
 
 </div>
 
-**Key Insights from SHAP Analysis:**
-- `Age` and `NumOfProducts` were the strongest churn predictors
-- Customers in **Germany** showed 2.5× higher churn propensity
-- Inactive members with `Balance > $100K` had **68% churn probability**
+**Key SHAP Insights:**
+
+- `Age` and `NumOfProducts` were the **strongest churn predictors** globally
+- Customers in **Germany** showed **2.5× higher** churn propensity vs. France and Spain
+- Inactive members with `Balance > $100K` had a **68% churn probability**
+- Binary flag `IsActiveMember` had outsized impact in borderline cases
 
 ---
 
-### ☁️ Deployment
+## 📋 All Projects Overview
 
-```
-📦 churn-prediction/
-├── 📂 data/              # Raw + processed datasets
-├── 📂 notebooks/         # EDA + model training notebooks
-├── 📂 models/            # Saved model artifacts (.pkl)
-├── 📂 src/               # Preprocessing + inference pipeline
-├── 📄 app.py             # Streamlit application entry point
-├── 📄 requirements.txt
-└── 📄 README.md
-```
-
-> **Live App Features:** Single-customer prediction · Batch CSV upload · SHAP explanation panel · Confidence score meter
+| # | Project | Type | Tools | Highlights |
+|:--:|:---|:---:|:---|:---|
+| 1 | **Bank Customer Churn Prediction** | Classification | XGBoost, SHAP, Streamlit | 87% accuracy, full explainability |
+| 2 | **Care Transition Analytics EDA** | EDA + Deployment | Pandas, Seaborn, Streamlit | Healthcare domain, deployed app |
+| 3 | **SMS Spam Detection** | NLP Classification | Scikit-learn, NLTK | TF-IDF + Naive Bayes pipeline |
+| 4 | **Email Spam Classifier** | NLP Classification | Python, ML | End-to-end classifier |
+| 5 | **Netflix Data Analysis** | EDA | Pandas, Matplotlib | Trend & content analysis |
+| 6 | **Diwali Sales Analysis** | EDA | Pandas, Seaborn | Consumer behavior insights |
+| 7 | **Google Search Analysis** | EDA | Python, Plotly | Query trend analysis |
+| 8 | **Customer Analytics Dashboard** | Visualization | HTML, JS | Interactive, browser-native dashboard |
+| 9 | **Coaster Name EDA** | EDA | Pandas | Thematic naming pattern analysis |
+| 10 | **Website Data Analysis** | Analytics | Python | Traffic & engagement analytics |
 
 ---
 
@@ -165,9 +224,9 @@ flowchart TD
 
 <div align="center">
 
-**Languages & Core**
+**Core Languages**
 
-[![Skills](https://skillicons.dev/icons?i=python,git,github,linux,vscode&theme=dark)](https://skillicons.dev)
+[![Skills](https://skillicons.dev/icons?i=python,git,linux,vscode&theme=dark)](https://skillicons.dev)
 
 **ML / Data Science**
 
@@ -183,18 +242,106 @@ flowchart TD
 
 </div>
 
+| Domain | Technologies |
+|:---|:---|
+| **ML Frameworks** | Scikit-learn · XGBoost · LightGBM · TensorFlow · PyTorch |
+| **Data & EDA** | Pandas · NumPy · Matplotlib · Seaborn · Plotly |
+| **Explainability** | SHAP · LIME · Permutation Importance |
+| **NLP** | HuggingFace Transformers · NLTK · spaCy · TF-IDF |
+| **Computer Vision** | OpenCV · YOLOv8 |
+| **Deployment** | Streamlit · FastAPI · Docker |
+| **DevOps & Version Control** | Git · GitHub Actions · Linux |
+| **Cloud & Platforms** | AWS · Google Cloud · Databricks |
+
+---
+
+## 📜 Certifications
+
+<details>
+<summary><b>🔽 View All 20+ Certifications</b></summary>
+
+<br/>
+
+| Certificate | Issuer | Domain |
+|:---|:---:|:---:|
+| Applied Data Science with Python | IBM / Coursera | Data Science |
+| Machine Learning with Python | IBM / Coursera | ML |
+| Fundamentals of ML and AI | — | ML / AI |
+| AI and ML Full Course | Simplilearn | ML / AI |
+| Introduction to Generative AI | Google | GenAI |
+| Introduction to Large Language Models | Google | LLMs |
+| Introduction to Large Language Models | IBM | LLMs |
+| Create Image Captioning Models | — | Computer Vision |
+| Data Analysis with Python | IBM | Data Analysis |
+| Data Visualization with Python | IBM | Visualization |
+| Python 101 for Data Science | IBM | Python |
+| Python Data Analysis | — | Python |
+| Practicing TDD with Python | — | Software Engineering |
+| Learning C++ | LinkedIn Learning | C++ |
+| AWS Foundations: ML Basics | AWS | Cloud ML |
+| Get Started with Databricks for ML | Databricks | ML Ops |
+| Google Analytics Certification | Google | Analytics |
+| Innovating with Google Cloud AI | Google Cloud | AI / Cloud |
+| Introduction to Prompt Engineering | GitHub Copilot | LLMs / Dev Tools |
+| HP LIFE — AI for Beginners | HP | AI |
+| YUVA AI for All | — | AI Literacy |
+
+</details>
+
+---
+
+## 🏅 IBM Digital Badges
+
 <div align="center">
 
-| Domain | Technologies |
-|:---:|:---|
-| **ML Frameworks** | Scikit-learn · XGBoost · LightGBM · TensorFlow · PyTorch |
-| **Data** | Pandas · NumPy · SQL · SHAP · Matplotlib · Seaborn · Plotly |
-| **Deployment** | Streamlit · FastAPI · Docker |
-| **NLP** | HuggingFace Transformers · NLTK · spaCy |
-| **Vision** | OpenCV · YOLOv8 |
-| **DevOps** | Git · GitHub Actions · Linux |
+| Badge | Level |
+|:---|:---:|
+| Python for Data Science | Foundation |
+| Data Analysis Using Python | Foundation |
+| Data Visualization Using Python | Foundation |
+| Machine Learning with Python | Level 1 |
+| Applied Data Science with Python | Level 2 |
+
+> IBM badges are blockchain-verified credentials, shareable via Credly.
 
 </div>
+
+---
+
+## 💼 Internships & Simulations
+
+| Program | Organization | Type | Domain |
+|:---|:---:|:---:|:---:|
+| Data Analytics Job Simulation | Forage | Virtual | Analytics |
+| Tata GenAI Powered Data Analytics | Tata / Forage | Virtual | GenAI · Analytics |
+| Introduction to Software Engineering | Forage | Virtual | SWE |
+| Industry Internship | — | Real-world | ML / Data |
+
+---
+
+## 🏆 Achievements Snapshot
+
+| | Achievement | Details |
+|:---:|:---|:---|
+| 🧠 | **87% Churn Prediction Accuracy** | XGBoost with end-to-end SHAP explainability |
+| 📊 | **10+ Data Science Projects** | Spanning NLP, EDA, Classification, Visualization |
+| 📜 | **20+ Certifications** | IBM, Google, AWS, Databricks, Coursera |
+| 🏅 | **5 IBM Digital Badges** | Blockchain-verified, Credly-shareable |
+| 💼 | **3 Virtual Internships** | Forage — Analytics, GenAI, Engineering |
+| 📸 | **3rd Prize — Photography** | University Cultural Festival · 200+ participants |
+
+---
+
+## 🗺️ AI Engineer Roadmap
+
+This repository includes a curated **12-Month AI Engineer Roadmap** and a handpicked list of **Free AI/ML Courses** — compiled for learners who want a structured path from beginner to job-ready.
+
+```
+📂 AI Engineer Roadmap/
+├── AI Engineer 12 Months Roadmap.pdf    ← Month-by-month structured plan
+├── Free AI ML Courses.pdf               ← Curated free resource list
+└── AI.jpeg                              ← Visual roadmap overview
+```
 
 ---
 
@@ -202,87 +349,92 @@ flowchart TD
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=sahilgaund&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=7B2FBE&text_color=c9d1d9&count_private=true&include_all_commits=true" />
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=sahil-gaund03&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=7C3AED&text_color=c9d1d9&count_private=true&include_all_commits=true" />
 &nbsp;&nbsp;
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sahilgaund&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=c9d1d9&langs_count=8" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sahil-gaund03&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=c9d1d9&langs_count=8" />
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=sahilgaund&theme=midnight-purple&hide_border=true&background=0D1117&ring=00D9FF&fire=FF6B6B&currStreakLabel=00D9FF&sideLabels=7B2FBE&dates=666666" />
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=sahilgaund&bg_color=0D1117&color=00D9FF&line=7B2FBE&point=FF6B6B&area=true&hide_border=true&area_color=00D9FF" width="100%"/>
+<img src="https://streak-stats.demolab.com?user=sahil-gaund03&theme=midnight-purple&hide_border=true&background=0D1117&ring=A78BFA&fire=FF6B6B&currStreakLabel=A78BFA&sideLabels=7C3AED&dates=666666" />
 
 </div>
 
 ---
 
-## ⚡ Technical Strengths
+## ⚡ Core Competencies
 
-<div align="center">
-
-| Strength | Capability |
+| Competency | Description |
 |:---|:---|
-| 🔬 **ML Engineering** | End-to-end pipeline design: ingestion → feature store → training → serving |
-| 📊 **Statistical Analysis** | Hypothesis testing, A/B analysis, distribution modeling |
-| 🧾 **Model Explainability** | SHAP, LIME, permutation importance — production-ready interpretability |
+| 🔬 **ML Engineering** | Full pipeline design: ingestion → feature store → training → serving |
+| 📊 **Statistical Analysis** | Hypothesis testing, A/B testing, distribution modeling |
+| 🧾 **Explainability** | SHAP, LIME, permutation importance — production-ready interpretability |
 | 🚀 **Rapid Prototyping** | MVP to deployed app in days using Streamlit + FastAPI |
+| 🧠 **Cross-domain Thinking** | Translating business KPIs directly into ML objectives |
 | 🔍 **EDA Mastery** | Surfacing non-obvious patterns from messy, real-world datasets |
-| 🧠 **Cross-domain Thinking** | Translating business KPIs into measurable ML objectives |
+
+---
+
+## 🤝 Contributing
+
+This is primarily a personal portfolio repository. However, contributions are welcome in the following forms:
+
+1. **Feedback** — Open an issue with suggestions to improve documentation or project reports
+2. **Collaboration** — If you'd like to collaborate on an ML or Data Science project, reach out via LinkedIn
+3. **Resources** — If you know of a high-quality free course or roadmap resource worth adding, open a pull request
+
+```bash
+# Fork the repo
+git clone https://github.com/sahil-gaund03/achivement.git
+
+# Create your branch
+git checkout -b feature/your-suggestion
+
+# Commit your changes
+git commit -m "Add: your meaningful change"
+
+# Push and open a Pull Request
+git push origin feature/your-suggestion
+```
+
+> Please keep all contributions respectful, relevant, and well-documented.
+
+---
+
+## 📄 License
+
+This repository is licensed under the **MIT License**.  
+You are free to reference, adapt, or build upon this work — attribution appreciated but not required.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-A78BFA?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
+---
+
+## 👤 Author
+
+<div align="center">
+
+<img src="https://github.com/sahil-gaund03.png" width="110" style="border-radius:50%;" alt="Sahil Gaund"/>
+
+### **Sahil Gaund**
+*AI / ML Engineer · Data Scientist · Open to Opportunities*
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sahilgaund03)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sahil-gaund03)
+[![Portfolio](https://img.shields.io/badge/Portfolio-A78BFA?style=for-the-badge&logo=netlify&logoColor=white)](https://sahilgaund0310.netlify.app/)
 
 </div>
 
 ---
 
-## 🏆 Achievements
+## ⭐ Support
+
+If this repository has been useful — whether you borrowed an idea, used the roadmap, or found the project docs helpful — consider leaving a ⭐ star. It helps others discover this work and keeps me motivated to keep building in public.
 
 <div align="center">
 
-| 🥇 | Achievement | Details |
-|:---:|:---|:---|
-| 🧠 | **87% Churn Prediction Accuracy** | Best-in-class XGBoost model with SHAP explainability |
-| 📜 | **ML Specialization** | Coursera — Andrew Ng · Supervised, Unsupervised & RL |
-| 🎓 | **TensorFlow Developer Certificate** | Google certified · Neural network proficiency |
-| 📸 | **3rd Prize — Photography** | University Cultural Festival · 200+ participants |
-| 💬 | **NLP Pipeline @ 1K req/s** | BERT fine-tuned · 94% sentiment classification accuracy |
-| 🔭 | **YOLOv8 Object Detection** | 91% mAP · Real-time WebRTC inference |
-
-</div>
-
----
-
-## 🎯 Career Objective
-
-<div align="center">
-
-> *"I don't just build models — I build systems that make decisions at scale."*
-
-</div>
-
-I'm actively seeking **internship and entry-level opportunities** in AI/ML Engineering or Data Science where I can:
-
-- Deploy models that **directly improve business outcomes** — not just Kaggle leaderboards
-- Work within **fast-moving teams** that value clean code, reproducibility, and impact
-- Apply **end-to-end ML thinking** — from stakeholder requirements to monitored production systems
-
-If you're building something that uses data to make smarter decisions, **let's talk.**
-
----
-
-## 📬 Contact
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sahilgaund)
-&nbsp;
-[![Email](https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sahilgaund@email.com)
-&nbsp;
-[![Portfolio](https://img.shields.io/badge/Visit_Portfolio-00D9FF?style=for-the-badge&logo=vercel&logoColor=black)](https://sahilgaund.dev)
-
-<br/>
-
-*Response time: within 24 hours · Open to DMs on LinkedIn*
+[![Star this repo](https://img.shields.io/github/stars/sahil-gaund03/achivement?style=social)](https://github.com/sahil-gaund03/achivement)
+&nbsp;&nbsp;
+[![Follow on GitHub](https://img.shields.io/github/followers/sahil-gaund03?style=social)](https://github.com/sahil-gaund03)
 
 </div>
 
@@ -290,13 +442,13 @@ If you're building something that uses data to make smarter decisions, **let's t
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B6B,50:7B2FBE,100:00D9FF&height=100&section=footer&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=110&section=footer&animation=fadeIn" width="100%"/>
 
-**Sahil Gaund** · AI/ML Engineer · Data Scientist
+**Sahil Gaund** · AI/ML Engineer · Based in India
 
 *"Data is the new oil. Refined intelligently, it powers everything."*
 
-![Made with ❤️](https://img.shields.io/badge/Made_with-❤️_in_India-FF6B6B?style=flat-square)
-![Last Updated](https://img.shields.io/badge/Last_Updated-2025-00D9FF?style=flat-square)
+![Made with ❤️](https://img.shields.io/badge/Made_with-❤️_in_India-A78BFA?style=flat-square)
+![Last Updated](https://img.shields.io/badge/Last_Updated-2026-302b63?style=flat-square)
 
 </div>
